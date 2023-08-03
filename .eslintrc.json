@@ -7,6 +7,16 @@
     "eslint-plugin-import-helpers"
   ],
   "rules": {
+    "no-console": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
     "react/self-closing-comp": "error",
     "import-helpers/order-imports": [
       "warn",
