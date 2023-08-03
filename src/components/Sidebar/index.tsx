@@ -2,6 +2,7 @@ import { Search } from 'lucide-react'
 
 import { Logo } from './Logo'
 import { MainNavigation } from './MainNavigation'
+import { Profile } from './Profile'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 
 export function Sidebar() {
@@ -20,6 +21,8 @@ export function Sidebar() {
 
       <MainNavigation />
       <UsedSpaceWidget />
+      <div className="h-px bg-zinc-200" />
+      <Profile />
     </aside>
   )
 }
