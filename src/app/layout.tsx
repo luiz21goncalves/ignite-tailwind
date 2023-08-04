@@ -17,7 +17,7 @@ export default function RootLayout(props: { children: ReactNode }) {
   const { children } = props
 
   return (
-    <html lang="en">
+    <html lang="en" className="antialiased">
       <body className={inter.className}>
         <div className="grid min-h-screen w-screen grid-cols-app">
           <Sidebar />
