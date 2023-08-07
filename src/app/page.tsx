@@ -77,10 +77,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-form gap-3 pt-5">
-            <label
-              htmlFor="photo"
-              className="text-sm font-medium text-zinc-700"
-            >
+            <label className="text-sm font-medium text-zinc-700">
               Your photo
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">
                 This will be displayed on your profile.
@@ -88,8 +85,8 @@ export default function Home() {
             </label>
             <FileInput.Root className="flex items-start gap-5">
               <FileInput.ImagePreview />
-              <FileInput.Trigger htmlFor="photo" />
-              <FileInput.Control id="photo" />
+              <FileInput.Trigger />
+              <FileInput.Control />
             </FileInput.Root>
           </div>
 
@@ -133,18 +130,15 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-form gap-3 pt-5">
-            <label
-              htmlFor="projects"
-              className="text-sm font-medium text-zinc-700"
-            >
+            <label className="text-sm font-medium text-zinc-700">
               Protifolio projects
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">
                 Share a few snippets of your work.
               </span>
             </label>
             <FileInput.Root>
-              <FileInput.Trigger htmlFor="projects" />
-              <FileInput.Control id="projects" multiple />
+              <FileInput.Trigger />
+              <FileInput.Control multiple />
             </FileInput.Root>
           </div>
 

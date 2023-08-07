@@ -1,15 +1,15 @@
+'use client'
+
 import { UploadCloud } from 'lucide-react'
 
-type FileInputTriggerProps = {
-  htmlFor: string
-}
+import { useFileInput } from './FileInputContext'
 
-export function FileInputTrigger(props: FileInputTriggerProps) {
-  const { htmlFor } = props
+export function FileInputTrigger() {
+  const { id } = useFileInput()
 
   return (
     <label
-      htmlFor={htmlFor}
+      htmlFor={id}
       className="group flex flex-1 cursor-pointer flex-col items-center gap-3 rounded-lg border border-zinc-300 px-5 py-4 text-center text-zinc-500 shadow-sm transition-colors hover:border-violet-200 hover:bg-viole-25 hover:text-violet-500"
     >
       <div className="rounded-full border-6 border-zinc-50 bg-zinc-100 p-2 transition-colors group-hover:border-violet-50 group-hover:bg-violet-100">
