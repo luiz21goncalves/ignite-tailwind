@@ -1,6 +1,6 @@
 import { Mail, UploadCloud, User } from 'lucide-react'
 
-import { Input } from '@/components/Input'
+import { Input } from '@/components/Form/Input'
 import { SettingsTabs } from '@/components/SettingsTabs'
 
 export default function Home() {

@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react'
 
-import { Input } from '../Input'
+import { Input } from '../Form/Input'
 import { Logo } from './Logo'
 import { MainNavigation } from './MainNavigation'
 import { Profile } from './Profile'
