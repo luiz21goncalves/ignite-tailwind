@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@radix-ui/react-select": "1.2.2",
     "@radix-ui/react-tabs": "1.0.4",
     "filesize": "10.0.8",
     "framer-motion": "10.15.0",
