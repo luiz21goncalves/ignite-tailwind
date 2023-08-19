@@ -15,7 +15,7 @@ export function Select(props: SelectProps) {
 
   return (
     <RadixSelect.Root {...attrs}>
-      <RadixSelect.Trigger className="pv-2 flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-zinc-500 px-3 shadow-sm data-[placeholder]:text-zinc-600">
+      <RadixSelect.Trigger className="pv-2 flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-zinc-500 px-3 shadow-sm outline-none transition-colors focus:border-violet-300 focus:ring-4 focus:ring-violet-100 data-[placeholder]:text-zinc-600">
         <RadixSelect.Value placeholder={placeholder} className="text-black" />
         <RadixSelect.Icon>
           <ChevronDown className="h-5 w-5 text-zinc-500" />
