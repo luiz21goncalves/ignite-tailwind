@@ -19,7 +19,7 @@ export function FileInputFileList() {
             key={key}
             name={file.name}
             size={file.size}
-            state="error"
+            state="complete"
           />
         )
       })}
